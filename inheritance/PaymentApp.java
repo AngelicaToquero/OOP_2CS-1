@@ -1,7 +1,6 @@
 public class PaymentApp {
    public static void main(String[] args) {
 
-
        Order gcash = new Order("keyboard", 300.0, 10 , new Gcash());
        System.out.println("Order item is " + gcash.getItem());
        System.out.println("Unit price is " + gcash.getUnitPrice() );
